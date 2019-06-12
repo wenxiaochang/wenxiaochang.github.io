@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.wjingchang.cc/cordova.html</loc>
+    <lastmod>2019-06-12</lastmod>
+  </url>  <url>
+    <loc>https://www.wjingchang.cc/iosSSR.html</loc>
+    <lastmod>2019-06-12</lastmod>
+  </url>  <url>
     <loc>https://www.wjingchang.cc/androidSsr.html</loc>
     <lastmod>2019-06-08</lastmod>
-  </url>  <url>
-    <loc>https://www.wjingchang.cc/cordova.html</loc>
-    <lastmod>2019-06-06</lastmod>
   </url>
 </urlset>

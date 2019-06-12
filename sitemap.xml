@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wjingchang.cc/cordova.html</loc>
+    
+    <lastmod>2019-06-12T08:09:05.966Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wjingchang.cc/iosSSR.html</loc>
+    
+    <lastmod>2019-06-12T08:08:43.762Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wjingchang.cc/tags/index.html</loc>
     
     <lastmod>2019-06-11T06:54:18.195Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>https://www.wjingchang.cc/androidSsr.html</loc>
     
     <lastmod>2019-06-08T04:26:12.279Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wjingchang.cc/cordova.html</loc>
-    
-    <lastmod>2019-06-06T10:18:42.733Z</lastmod>
     
   </url>
   

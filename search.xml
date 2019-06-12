@@ -1,25 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[安卓手机使用SSR]]></title>
-    <url>%2FandroidSsr.html</url>
-    <content type="text"><![CDATA[1、下载 shadowsocksR 安卓版 提取码:b98c 下载完成之后请自行安装 2、 打开软件3、点击右下角的+号4、选择从剪切板导入或扫描二维码 从剪切板导入必须先复制SSR链接，二维码扫描需要拿到SSR二维码 5、设置下路由（也可以不用设置）6、没有设置⑤可以直接跳过7、点击右上角圆形内飞机图标即可开启 。]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>ios 使用 shadowrocket(小火箭)</title>
+      <link href="/iosSSR.html"/>
+      <url>/iosSSR.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>ios的Shadowrocket（以下统一称为小火箭）是IOS系统中最好的FQ代理软件（支持多种协议 常见的有SSR、SS、V2Ray），但是由于各种原因大陆ID是没办法下载的，下载（正版的）唯一途径就是切换美区账号，但是美区账号不是人人都有的。这都不重要！在后面我会提供网友们的下载途径给你们先教你们怎么用吧</p><p>1、安装小火箭App（往下看）<br>图标长这样子<br><img src="https://i.shadowrocket.org/assets/images/icon.jpg" alt="shadowrocket"></p><p>2、打开小火箭</p><p><img src="/images/20190612/20190612150448.png" alt="shadowrocket"></p><p>3、添加节点</p><p><img src="/images/20190612/20190612150457.png" alt="shadowrocket"></p><p>4、连接<br>点击未连接旁边的开关就可以连接了 连接完成后状态栏会出现VPN的的图标</p><blockquote><p>PS:第一次使用会出现一个弹窗英文的 点击 Allow 按钮 根据步骤操作</p></blockquote><p>到此完成。</p><blockquote><blockquote><p>第二种添加节点的办法 直接复制ssr:// 协议的链接。然后再打开小火箭，小火箭会自动识别节点</p></blockquote></blockquote><h2 id="安装小火箭"><a href="#安装小火箭" class="headerlink" title="安装小火箭"></a>安装小火箭</h2><p>用苹果自带的浏览器(safari浏览器)打开 <a href="https://i.shadowrocket.org/" target="_blank" rel="noopener">小火箭在线安装</a></p><p><img src="/images/20190612/20190612155910.jpg" alt="示例图"></p><blockquote><p>第一次安装完成之后会弹出要求输入账号和密码，输入页面提供的账号密码即可</p></blockquote><p>如果出现闪退的现象，请卸载已经安装好的小火箭然后再App Store里面搜索（shadowrocket）重新下载即可。不出意外你的App Store应该切换到美区了。下载完成后记得重新登录你的Appleid</p><p>本章完。</p><blockquote><p>本博主有优质节点提供，欢迎在评论区留言</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>网络工具</category>
+          
+          <category> 网络工具 </category>
+          
       </categories>
-      <tags>
-        <tag>SSR</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[cordova 结合 vue 构建 webapp 教程]]></title>
-    <url>%2Fcordova.html</url>
-    <content type="text"><![CDATA[一、环境搭建篇 Apache Cordova 生态比较活跃而且还是歪果仁开发的一个混合APP框架，反正最近比较闲就试试研究研究一番。还是先从环境搭建开始，准备好了吗？要开车咯 1、开发环境 node 8.9.0 (我在用的版本) android sdk (生成 *.apk) Xcode(生成*ipa) 说明下Xcode要在Mac系统上才会有 本人没有Mac 只能从安卓玩起 2、Cordova安装，创建项目（windows为例）Cordova官方文档 2.1 在Windows安装cordova 1npm install -g cordova 创建coedova项目 cordova create (hello) 这个换成自己想要的名字 1cordova create hello com.example.hello HelloWorld 添加平台需要的插件 12cordova platform add ios --savecordova platform add android --save 添加Android成功 查看下平台 12345678D:\myapp&gt;cordova platform lsInstalled platforms: android 7.1.4Available platforms: browser ~5.0.1 ios ~4.5.4 osx ~4.0.1 windows ~6.0.0 添加cordova插件 12cordova plugin search camera // 搜索插件cordova plugin add cordova-plugin-camera // 添加所需的插件 查看已添加的插件 123D:\myapp&gt;cordova plugin lscordova-plugin-camera 4.0.3 "Camera"cordova-plugin-whitelist 1.3.3 "Whitelist" 3、构建App 重要：请首先确保你的 Windows 已经安装了Android SDK 或者 Android Studio，配置好环境变量，iOS 需要安装Xcode Android 官方指导 iOS 官方指导 如果你没有安装SDK会出现这样的局面 我是直接安装Android studio （需要一把梯子俗称VPN） 强烈建议安装Android studio 简单快捷，工具直接百度就有了 环境要求 Android 5.1.1 （API 22） 平台 SDK Android SDK 生成工具版本 19.1.0 或更高版本 Android 支援存储库 （额外） JDK 7.0或更高版本（推荐8版本） 请严格按照这里的SDK来配置不然会报错JDK选择8版本的就够了java环境配置请直接百度一下 最后我想说的是我不建议新手直接玩这个，因为你可能会在配置安卓环境的时候惨死附赠运行成功图]]></content>
+      
+      
+        <tags>
+            
+            <tag> SSR </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安卓手机使用SSR</title>
+      <link href="/androidSsr.html"/>
+      <url>/androidSsr.html</url>
+      
+        <content type="html"><![CDATA[<p>1、下载 <a href="https://pan.baidu.com/s/1PZ6bzwfSkPr9c62GI6HIXw" target="_blank" rel="noopener">shadowsocksR</a> 安卓版 提取码:b98c</p><blockquote><p>下载完成之后请自行安装</p></blockquote><p>2、 打开软件<br><img src="/images/20190608/01.png" width="400" height="600"><br>3、点击右下角的+号<br><img src="/images/20190608/02.png" width="400" height="600"><br>4、选择从剪切板导入或扫描二维码</p><blockquote><p>从剪切板导入必须先复制SSR链接，二维码扫描需要拿到SSR二维码</p></blockquote><p><img src="/images/20190608/03.png" width="400" height="600"></p><p>5、设置下路由（也可以不用设置）<br><img src="/images/20190608/04.png" width="400" height="600"><br>6、没有设置⑤可以直接跳过<br><img src="/images/20190608/05.jpg" width="400" height="600"><br>7、点击右上角圆形内飞机图标即可开启 。<br><img src="/images/20190608/06.jpg" width="400" height="600"></p>]]></content>
+      
+      
       <categories>
-        <category>web前端</category>
+          
+          <category> 网络工具 </category>
+          
       </categories>
-      <tags>
-        <tag>cordova</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> SSR </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>cordova 结合 vue 构建 webapp 教程</title>
+      <link href="/cordova.html"/>
+      <url>/cordova.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、环境搭建篇"><a href="#一、环境搭建篇" class="headerlink" title="一、环境搭建篇"></a>一、环境搭建篇</h2><blockquote><p>Apache Cordova 生态比较活跃而且还是歪果仁开发的一个混合APP框架，反正最近比较闲就试试研究研究一番。还是先从环境搭建开始，准备好了吗？要开车咯</p></blockquote><h2 id="1、开发环境"><a href="#1、开发环境" class="headerlink" title="1、开发环境"></a>1、开发环境</h2><ul><li>node 8.9.0 (我在用的版本)</li><li>android sdk (生成 *.apk)</li><li>Xcode(生成*ipa)</li></ul><blockquote><p>说明下Xcode要在Mac系统上才会有 本人没有Mac 只能从安卓玩起</p></blockquote><h2 id="2、Cordova安装，创建项目（windows为例）"><a href="#2、Cordova安装，创建项目（windows为例）" class="headerlink" title="2、Cordova安装，创建项目（windows为例）"></a>2、Cordova安装，创建项目（windows为例）</h2><p><a href="https://cordova.apache.org/docs/zh-cn/8.x/guide/cli/index.html" target="_blank" rel="noopener">Cordova官方文档</a></p><h3 id="2-1-在Windows安装cordova"><a href="#2-1-在Windows安装cordova" class="headerlink" title="2.1 在Windows安装cordova"></a>2.1 在Windows安装cordova</h3>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cordova</span><br></pre></td></tr></table></figure><p><img src="/images/20190303/20190303152801.png" alt="安装cordova"></p><ul><li><p>创建coedova项目</p><blockquote><p>cordova create (hello) 这个换成自己想要的名字 </p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova create hello com.example.hello HelloWorld</span><br></pre></td></tr></table></figure></blockquote></li><li><p>添加平台需要的插件</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cordova platform add ios --save</span><br><span class="line">cordova platform add android --save</span><br></pre></td></tr></table></figure></li><li><p>添加Android成功</p></li></ul><p><img src="/images/20190303/20190303153825.png" alt="添加Android成功"></p><p>查看下平台</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">D:\myapp&gt;cordova platform ls</span><br><span class="line">Installed platforms:</span><br><span class="line">  android 7.1.4</span><br><span class="line">Available platforms:</span><br><span class="line">  browser ~5.0.1</span><br><span class="line">  ios ~4.5.4</span><br><span class="line">  osx ~4.0.1</span><br><span class="line">  windows ~6.0.0</span><br></pre></td></tr></table></figure><ul><li>添加cordova插件</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cordova plugin search camera // 搜索插件</span><br><span class="line">cordova plugin add cordova-plugin-camera // 添加所需的插件</span><br></pre></td></tr></table></figure><ul><li>查看已添加的插件</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">D:\myapp&gt;cordova plugin ls</span><br><span class="line">cordova-plugin-camera 4.0.3 "Camera"</span><br><span class="line">cordova-plugin-whitelist 1.3.3 "Whitelist"</span><br></pre></td></tr></table></figure><h2 id="3、构建App"><a href="#3、构建App" class="headerlink" title="3、构建App"></a>3、构建App</h2><blockquote><p>重要：请首先确保你的 Windows 已经安装了Android SDK 或者 Android Studio，配置好环境变量，iOS 需要安装Xcode</p></blockquote><p><a href="https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html" target="_blank" rel="noopener">Android 官方指导</a></p><p><a href="https://cordova.apache.org/docs/en/latest/guide/platforms/ios/index.html" target="_blank" rel="noopener">iOS 官方指导</a></p><ul><li>如果你没有安装SDK会出现这样的局面</li></ul><p><img src="/images/20190303/20190303155903.png" alt="未安装SDK"></p><ul><li>我是直接安装Android studio （需要一把梯子俗称VPN）</li></ul><blockquote><p>强烈建议安装Android studio 简单快捷，工具直接百度就有了</p></blockquote><p>环境要求</p><ol><li>Android 5.1.1 （API 22） 平台 SDK</li><li>Android SDK 生成工具版本 19.1.0 或更高版本</li><li>Android 支援存储库 （额外）</li><li>JDK 7.0或更高版本（推荐8版本）</li></ol><blockquote><p>请严格按照这里的SDK来配置不然会报错JDK选择8版本的就够了java环境配置请直接百度一下</p></blockquote><h1 id="最后我想说的是我不建议新手直接玩这个，因为你可能会在配置安卓环境的时候惨死"><a href="#最后我想说的是我不建议新手直接玩这个，因为你可能会在配置安卓环境的时候惨死" class="headerlink" title="最后我想说的是我不建议新手直接玩这个，因为你可能会在配置安卓环境的时候惨死"></a>最后我想说的是我不建议新手直接玩这个，因为你可能会在配置安卓环境的时候惨死</h1><p>附赠运行成功图</p><p><img src="/images/20190303/20190303175102.png" alt="成功"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> web前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
